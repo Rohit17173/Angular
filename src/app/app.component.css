@@ -1,0 +1,69 @@
+.myApp
+{display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  /* border: 3px solid green; */
+  margin: auto;
+  width: 30%;
+  height: 400px;
+  /* border: 3px solid green; */
+  padding: 10px;
+}
+.button{
+    display: flex;
+
+flex-direction: row;
+justify-content: center;
+}
+
+button{
+    display: inline;
+    border: 3px solid green;
+    /* height: 100px; */
+    position: relative;
+    top: 20px;
+  }
+
+
+  input[type="text"] {
+    width: 100%; /* Full width */
+    padding: 10px 15px; /* Padding inside the input */
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    font-size: 16px; /* Font size */
+    color: #333; /* Text color */
+    background-color: #fff; /* Background color */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+input[type="text"]:focus{
+    border-color: #007BFF; /* Border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Shadow on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px; /* Padding inside the button */
+  margin: 10px 2px; /* Space between buttons */
+  border: 1px solid transparent; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+  font-size: 16px; /* Font size */
+  color: #fff; /* Text color */
+  background-color: #007BFF; /* Background color */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove text underline */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker background on hover */
+  border-color: #004085; /* Darker border on hover */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Shadow on hover */
+}
+  
